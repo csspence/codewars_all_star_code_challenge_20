@@ -14,7 +14,14 @@ addArrays(["a"],["b"]) // => ["ab"]
 */
 
 
-function addArrays(array1, array2) {
-//code here
+const addArrays = (array1, array2) => {
+  const newArr = [];
+  if(array1.length !== array2.length) {
+    throw new Error();
+  }
+  for(let i = 0; i < array1.length; i++) {
+    newArr.push(array1[i] + array2[i]);
+  }
 
+  return newArr;
 }
