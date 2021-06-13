@@ -1,7 +1,8 @@
 /*
 All Star Code Challenge #20
 
-Create a function called addArrays() that combines two arrays of equal length, summing each element of the first with the corresponding element in the second, returning the "combined" summed array.
+Create a function called addArrays() that combines two arrays of equal length, summing each element of the first with the corresponding element in the second,
+returning the "combined" summed array.
 Raise an error if input arguments are not of equal length.
 
 addArrays([1,2],[4,5]); // => [5,7]
